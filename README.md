@@ -61,7 +61,7 @@ A VCF (Variant Call Format) file is a standard file format in bioinformatics use
 ![alt text](https://github.com/ethan-mcq/Bioinformatics-Crash/blob/main/images/VCF.png?raw=true)
 
 ## Basecalling
-[Unix Leaning](https://swcarpentry.github.io/shell-novice/)
+[Unix Learning Tool](https://swcarpentry.github.io/shell-novice/)
 
 Here we will install all of the necessary hardware to basecall on your own machine. We will be using Oxford Nanopore's open source basecalling software, Dorado. Continue on the link below and click on your operating system to download Dorado. This link can also be used later to access Dorado's in-depth documentation. 
 
