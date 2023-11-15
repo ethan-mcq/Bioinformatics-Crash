@@ -103,7 +103,7 @@ pod5s/ will be replaced with the directory of your POD5 files and calls.bam will
 
 ### Alignment
 Alignment can also be done with Dorado, as the Nanopore aligner [minimap2](https://github.com/lh3/minimap2) is integrated. 
-First, we need to get our reference genome. You will need to find whatever suits your needs best, but we will use HG38, as that is the current human genome standard.
+First, we need to get our reference genome. You will need to find whatever suits your needs best, but we will use HG38, as that is the current human genome standard. [Here](https://drive.google.com/file/d/12pGDaFliSzbo37eag6slsnrK6HcqaOv2/view?usp=sharing) is a download link for the HG38 reference genome I've saved for us. 
 Second, align!
 ```
 dorado aligner <index> <reads> > calls.aln.bam
@@ -112,6 +112,7 @@ index is the location of your reference genome and reads will be your unalinged 
 
 ### samtools
 [Samtools Documentation](http://www.htslib.org/doc/samtools.html)
+
 Samtools is a suite of programs for interacting with high-throughput sequencing data in the SAM (Sequence Alignment/Map) and BAM (Binary Alignment/Map) formats. These formats are commonly used in bioinformatics for representing sequence alignment information, especially in the context of DNA and RNA sequencing data.
 
 Samtools provides a set of command-line utilities that enable users to perform various operations on SAM/BAM files, such as:
