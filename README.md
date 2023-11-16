@@ -112,6 +112,8 @@ dorado aligner <index> <reads> > calls.aln.bam
 ```
 index is the location of your reference genome and reads will be your unalinged BAM file we created while basecalling. Now you should have a basecalled, aligned BAM file filled with your sequence data!
 
+[minimap2](https://github.com/lh3/minimap2)
+
 ### samtools
 [Samtools Documentation](http://www.htslib.org/doc/samtools.html)
 
